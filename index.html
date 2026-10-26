@@ -484,7 +484,9 @@ nav .navbtn{
 .gallery-dots{
   display:flex;
   justify-content:center;
-  gap:8px
+  gap:8px;
+  flex-wrap:wrap;
+  max-width:150px
 }
 .gallery-dot{
   width:10px;
@@ -1385,35 +1387,68 @@ nav .navbtn{
      </div>
      <div aria-label="Automatically changing school photo gallery" class="gallery">
       <div class="gallery-slides" id="gallerySlides">
-       <figure class="gallery-slide active">
-        <img alt="Maria Millennium High School gallery photo 1" loading="eager" src="1.jpg"/>
-        <figcaption class="gallery-caption">
-         School Memories
-        </figcaption>
-       </figure>
-       <figure class="gallery-slide">
-        <img alt="Maria Millennium High School gallery photo 2" loading="lazy" src="2.jpg"/>
-        <figcaption class="gallery-caption">
-         Learning and Activities
-        </figcaption>
-       </figure>
+      <figure class="gallery-slide active" aria-hidden="false">
+       <img alt="Maria Millennium High School gallery photo 1: School Memories" loading="eager" src="1.jpg"/>
+       <figcaption class="gallery-caption">
+        School Memories
+       </figcaption>
+      </figure>
+      <figure class="gallery-slide" aria-hidden="true">
+       <img alt="Maria Millennium High School gallery photo 2: Learning and Activities" loading="lazy" src="2.jpg"/>
+       <figcaption class="gallery-caption">
+        Learning and Activities
+       </figcaption>
+      </figure>
+      <figure class="gallery-slide" aria-hidden="true">
+       <img alt="Maria Millennium High School gallery photo 3: School Moments" loading="lazy" src="IMG-20261016-WA0012.jpg"/>
+       <figcaption class="gallery-caption">
+        School Moments
+       </figcaption>
+      </figure>
+      <figure class="gallery-slide" aria-hidden="true">
+       <img alt="Maria Millennium High School gallery photo 4: Campus Life" loading="lazy" src="IMG-20261026-WA0046.jpg"/>
+       <figcaption class="gallery-caption">
+        Campus Life
+       </figcaption>
+      </figure>
+      <figure class="gallery-slide" aria-hidden="true">
+       <img alt="Maria Millennium High School gallery photo 5: Student Activities" loading="lazy" src="IMG-20261026-WA0048.jpg"/>
+       <figcaption class="gallery-caption">
+        Student Activities
+       </figcaption>
+      </figure>
+      <figure class="gallery-slide" aria-hidden="true">
+       <img alt="Maria Millennium High School gallery photo 6: Learning Together" loading="lazy" src="IMG-20261026-WA0049.jpg"/>
+       <figcaption class="gallery-caption">
+        Learning Together
+       </figcaption>
+      </figure>
+      <figure class="gallery-slide" aria-hidden="true">
+       <img alt="Maria Millennium High School gallery photo 7: School Community" loading="lazy" src="IMG-20261016-WA0051.jpg"/>
+       <figcaption class="gallery-caption">
+        School Community
+       </figcaption>
+      </figure>
       </div>
       <div class="gallery-controls">
        <button aria-label="Previous photo" class="gallery-arrow" id="galleryPrev" type="button">
         &lsaquo;
        </button>
        <div aria-label="Choose a gallery photo" class="gallery-dots" id="galleryDots">
-        <button aria-label="Show photo 1" class="gallery-dot active" type="button">
-        </button>
-        <button aria-label="Show photo 2" class="gallery-dot" type="button">
-        </button>
+        <button aria-label="Show photo 1" class="gallery-dot active" type="button" aria-current="true"></button>
+        <button aria-label="Show photo 2" class="gallery-dot" type="button"></button>
+        <button aria-label="Show photo 3" class="gallery-dot" type="button"></button>
+        <button aria-label="Show photo 4" class="gallery-dot" type="button"></button>
+        <button aria-label="Show photo 5" class="gallery-dot" type="button"></button>
+        <button aria-label="Show photo 6" class="gallery-dot" type="button"></button>
+        <button aria-label="Show photo 7" class="gallery-dot" type="button"></button>
        </div>
        <button aria-label="Next photo" class="gallery-arrow" id="galleryNext" type="button">
         &rsaquo;
        </button>
       </div>
       <p aria-live="polite" class="gallery-status" id="galleryStatus">
-       Photo 1 of 2 &middot; Changes automatically every 4 seconds
+       Photo 1 of 7 &middot; Changes automatically every 4 seconds
       </p>
      </div>
      <p style="text-align:center;margin-top:20px;font-size:.82rem;color:var(--muted)">
