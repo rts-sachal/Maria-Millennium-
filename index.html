@@ -1,48 +1,1829 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#861f32">
-<title>Maria Millennium High School | Johar Campus</title>
-<meta name="description" content="Maria Millennium High School, Johar Campus — Nursery to Class X.">
-<style>
-:root{--red:#861f32;--dark:#641525;--rose:#f9e9ec;--pale:#fff7f8;--ink:#29252a;--muted:#716970;--line:#eedde1;--gold:#c79b55;--shadow:0 12px 35px #64152512}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:90px}body{font:16px/1.7 "Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--pale)}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.container{width:min(1160px,92%);margin:auto}.section{padding:76px 0}.white{background:white}.tint{background:#fff0f2}.eyebrow{color:var(--red);font-size:.78rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px}.heading{font:700 clamp(2rem,4vw,2.8rem)/1.2 Georgia,serif;color:var(--dark);margin-bottom:15px}.intro{max-width:680px;color:var(--muted);margin-bottom:35px}.center{text-align:center}.center .intro{margin:0 auto 35px}.btn{display:inline-block;padding:12px 21px;border-radius:9px;background:var(--red);color:white;font-weight:700;border:1px solid var(--red);cursor:pointer}.btn:hover{background:var(--dark)}.outline{background:transparent;color:var(--red)}.topbar{background:var(--dark);color:white;padding:7px 0;font-size:.84rem}.topinner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.topbar a{color:#ffe6eb}.header{position:sticky;top:0;z-index:9;background:#ffffffef;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.headinner{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px}.logo{width:62px;height:62px;display:grid;place-items:center;text-align:center;border:2px dashed #c78b98;border-radius:50%;font-size:.64rem;line-height:1.2;font-weight:800;color:var(--red);background:#fff5f6}.brandname{font:700 1.2rem/1.2 Georgia,serif;color:var(--dark)}.campus{font-size:.78rem;color:var(--muted)}nav{display:flex;align-items:center;gap:17px}nav a{font-size:.85rem;font-weight:650}nav a:hover{color:var(--red)}nav .navbtn{padding:9px 13px;background:var(--red);color:white;border-radius:8px}.menu{display:none;background:white;border:1px solid var(--line);padding:8px 12px;border-radius:8px;color:var(--red)}.hero{padding:78px 0;background:radial-gradient(ellipse at 85% 10%,#f3d4da,transparent 35%),linear-gradient(120deg,#fff8f9,#f9e9ec 65%,#f4dce1);overflow:hidden}.herogrid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:42px}.pill{display:inline-block;border:1px solid #e7c2cb;border-radius:30px;padding:6px 13px;color:var(--red);font-size:.78rem;font-weight:800;letter-spacing:1px;margin-bottom:20px}.hero h1{font:700 clamp(2.7rem,5.2vw,4.6rem)/1.08 Georgia,serif;letter-spacing:-1px;color:var(--dark);margin-bottom:20px}.hero h1 span{color:#a94c60}.hero p{color:#62565d;margin-bottom:25px}.actions{display:flex;gap:12px;flex-wrap:wrap}.photo{min-height:390px;border:1px solid #e8cbd2;border-radius:25px;display:grid;place-items:center;text-align:center;padding:35px;color:var(--dark);background:linear-gradient(#fff6f87a,#fff6f8b8),repeating-linear-gradient(135deg,#f5dfe4,#f5dfe4 12px,#f0d4db 12px,#f0d4db 24px)}.photo .emoji{font-size:3rem}.photo strong{display:block}.photo small{color:var(--muted)}.facts{background:white;border-bottom:1px solid var(--line)}.factgrid{display:grid;grid-template-columns:repeat(4,1fr)}.fact{text-align:center;padding:23px 10px;border-right:1px solid var(--line)}.fact:last-child{border:0}.fact strong{display:block;font:700 1.35rem Georgia,serif;color:var(--red)}.fact span{font-size:.82rem;color:var(--muted)}.aboutgrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:center}.aboutbox{min-height:300px;border-radius:18px;background:#f3dce1;padding:20px;display:grid;place-items:center;text-align:center}.aboutbox>div{background:white;border-radius:12px;padding:35px;width:100%;color:var(--muted)}.aboutbox strong{display:block;color:var(--red)}.checks{list-style:none;margin-top:20px;display:grid;gap:10px}.checks li:before{content:'✓';display:inline-grid;place-items:center;width:24px;height:24px;background:var(--rose);color:var(--red);border-radius:50%;margin-right:10px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{padding:25px;background:white;border:1px solid var(--line);border-radius:17px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.icon{font-size:1.65rem;background:var(--rose);width:52px;height:52px;display:grid;place-items:center;border-radius:13px;margin-bottom:15px}.card h3{font:700 1.2rem Georgia,serif;color:var(--dark);margin-bottom:8px}.card p{font-size:.91rem;color:var(--muted)}.classes{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.class{background:white;border:1px solid var(--line);border-radius:12px;padding:17px 5px;text-align:center}.class span{display:block;font-size:.75rem;color:var(--muted)}.class strong{color:var(--red)}.banner{background:linear-gradient(120deg,#761b2d,#a43d53);color:white;border-radius:22px;padding:42px;display:flex;align-items:center;justify-content:space-between;gap:25px}.banner h2{font:700 clamp(1.8rem,3vw,2.5rem)/1.2 Georgia,serif;margin-bottom:12px}.banner p{color:#f7e4e8;max-width:650px}.banner .btn{background:white;color:var(--dark);border-color:white;white-space:nowrap}.notices{display:grid;gap:13px}.notice{display:flex;gap:17px;align-items:flex-start;background:white;border:1px dashed #d9aab5;border-radius:13px;padding:18px}.date{flex-shrink:0;background:var(--rose);color:var(--red);border-radius:9px;padding:9px;text-align:center;font-size:.75rem}.notice h3{color:var(--dark);font-size:1rem}.notice p{color:var(--muted);font-size:.88rem}.gallery{position:relative;max-width:920px;margin:0 auto}.gallery-slides{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#f3dce1;box-shadow:var(--shadow)}.gallery-slide{display:none;margin:0;position:relative;height:clamp(260px,56vw,520px);aspect-ratio:16/9;background:#f3dce1;overflow:hidden}.gallery-slide.active{display:block;animation:galleryFade .7s ease}.gallery-slide img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;background:#f3dce1}.gallery-caption{position:absolute;left:0;right:0;bottom:0;padding:24px 18px 18px;color:white;background:linear-gradient(transparent,#2c1019cc);font-weight:700;text-shadow:0 1px 3px #0008;pointer-events:none}.gallery-controls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:16px}.gallery-arrow{width:40px;height:40px;border:1px solid #dfb8c1;border-radius:50%;background:white;color:var(--red);font-size:1.25rem;cursor:pointer}.gallery-arrow:hover{background:var(--rose)}.gallery-dots{display:flex;justify-content:center;gap:8px}.gallery-dot{width:10px;height:10px;border:0;border-radius:50%;background:#d8aab5;cursor:pointer;padding:0}.gallery-dot.active{background:var(--red);transform:scale(1.2)}.gallery-status{text-align:center;color:var(--muted);font-size:.82rem;margin-top:8px}@keyframes galleryFade{from{opacity:.45}to{opacity:1}}.staff{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.person{border:1px solid var(--line);border-radius:15px;background:white;text-align:center;overflow:hidden}.portrait{height:160px;background:#f2dce1;display:grid;place-items:center;font-size:2.6rem;color:var(--red)}.person div:last-child{padding:16px}.person h3{color:var(--dark);font-size:1rem}.person p{color:var(--muted);font-size:.84rem}.contactgrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px}.details{display:grid;gap:12px}.detail{padding:17px;background:#fff7f8;border:1px solid var(--line);border-radius:12px}.detail strong{display:block;color:var(--dark)}.detail p{color:var(--muted);font-size:.9rem;overflow-wrap:anywhere}.map{margin-top:15px;padding:25px;text-align:center;border:1px dashed #d5a1ad;border-radius:12px;color:var(--muted)}.form{padding:27px;background:white;border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow)}.form h3{font:700 1.5rem Georgia,serif;color:var(--dark);margin-bottom:18px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:grid;gap:6px}.full{grid-column:1/-1}.field label{font-size:.84rem;font-weight:700}.field input,.field select,.field textarea{width:100%;padding:11px;border:1px solid #e4d4d9;border-radius:8px;background:#fffafb}.field textarea{min-height:100px}.note{font-size:.78rem;color:var(--muted);margin-top:12px}.message{font-size:.85rem;color:var(--red);margin-top:10px}.footer{background:#40111e;color:#f8e9ed;padding:52px 0 20px}.footgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:25px;margin-bottom:35px}.footer h3,.footer h4{color:white;margin-bottom:12px}.footer h3{font:700 1.25rem Georgia,serif}.footer p,.footer a{font-size:.86rem;color:#dfc6cd}.footer ul{list-style:none;display:grid;gap:7px}.footer a:hover{color:white}.footbottom{border-top:1px solid #ffffff2b;padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.8rem;color:#dfc6cd}.toplink{position:fixed;right:18px;bottom:18px;background:var(--red);color:white;width:43px;height:43px;border-radius:50%;display:grid;place-items:center;box-shadow:var(--shadow)}
-@media(max-width:1000px){nav{gap:10px}nav a{font-size:.78rem}.classes{grid-template-columns:repeat(4,1fr)}.staff{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:800px){.section{padding:60px 0}.menu{display:block}.headinner{min-height:76px}nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;padding:16px 4%;border-bottom:1px solid var(--line);box-shadow:var(--shadow);align-items:stretch;flex-direction:column}nav.open{display:flex}nav a{padding:8px;font-size:.94rem}nav .navbtn{text-align:center}.herogrid,.aboutgrid,.contactgrid{grid-template-columns:1fr}.hero{padding:58px 0}.photo{min-height:300px}.grid3{grid-template-columns:repeat(2,1fr)}.banner{align-items:flex-start;flex-direction:column}.footgrid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.brandname{font-size:.96rem}.logo{width:50px;height:50px}.hero h1{font-size:2.55rem}.factgrid{grid-template-columns:repeat(2,1fr)}.fact:nth-child(2){border-right:0}.fact:nth-child(-n+2){border-bottom:1px solid var(--line)}.grid3,.gallery,.footgrid,.fields{grid-template-columns:1fr}.classes{grid-template-columns:repeat(3,1fr)}.full{grid-column:auto}.staff{grid-template-columns:repeat(2,1fr)}.form{padding:20px}.banner{padding:27px 22px}.topinner{justify-content:center;text-align:center}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-</style>
-</head>
-<body>
-<div class="topbar"><div class="container topinner"><span>Welcome to Maria Millennium High School</span><span><a href="#admissions">Admissions information</a> &nbsp; | &nbsp; <a href="#contact">Contact the campus</a></span></div></div>
-<header class="header"><div class="container headinner"><a class="brand" href="#home" aria-label="School homepage"><div class="logo">SCHOOL<br>MONOGRAM</div><div><div class="brandname">Maria Millennium<br>High School</div><div class="campus">Johar Campus · Nursery to X</div></div></a><button class="menu" id="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button><nav id="nav" aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#academics">Academics</a><a href="#facilities">Facilities</a><a href="#admissions">Admissions</a><a href="#notices">Notices</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a><a class="navbtn" href="#contact">Enquire Now</a></nav></div></header>
-<main>
-<section class="hero" id="home"><div class="container herogrid"><div><span class="pill">LEARN · GROW · EXCEL</span><h1>Inspiring Young Minds, <span>Building Bright Futures.</span></h1><p>Welcome to Maria Millennium High School, Johar Campus. A place where learning, creativity, confidence and good character come together to help every student grow.</p><div class="actions"><a class="btn" href="#admissions">Explore Admissions →</a><a class="btn outline" href="#about">Discover Our School</a></div><p style="font-size:.84rem;margin-top:20px">Quality learning for students from Nursery to Class X.</p></div><div class="photo"><div><div class="emoji">🏫</div><strong>YOUR SCHOOL PHOTOGRAPH</strong><small>Replace with a campus, school building or approved student activity photo.</small></div></div></div></section>
-<section class="facts"><div class="container factgrid"><div class="fact"><strong>Nursery–X</strong><span>Classes Offered</span></div><div class="fact"><strong>Learning</strong><span>Academic Development</span></div><div class="fact"><strong>Character</strong><span>Values & Confidence</span></div><div class="fact"><strong>Future</strong><span>Skills for Life</span></div></div></section>
-<section class="section white" id="about"><div class="container aboutgrid"><div class="aboutbox"><div><span style="font-size:3rem">🌟</span><strong>OUR SCHOOL STORY</strong><p>Add your school's history, founding year and achievements here.</p></div></div><div><p class="eyebrow">About our school</p><h2 class="heading">Education Beyond the Classroom</h2><p class="intro">At Maria Millennium High School, Johar Campus, we aim to provide a supportive environment where students can develop knowledge, discipline, curiosity and respect for others.</p><p>Use this section to introduce your school, its educational philosophy and the opportunities it provides to students and families.</p><ul class="checks"><li><b>Our vision:</b> To be a welcoming and inspiring school where every learner discovers their strengths, develops a love of learning, and is prepared to contribute positively to society. We aspire to help students grow into confident, thoughtful, and responsible individuals.</li><li><b>Our mission:</b> To provide a supportive, inclusive learning environment with meaningful teaching, curiosity, creativity, and high expectations. We aim to nurture each student's academic progress, personal development, and confidence through cooperation among students, teachers, and families.</li><li><b>Our values:</b> We encourage respect, honesty, responsibility, kindness, discipline, and fairness in everyday school life. We value curiosity, perseverance, teamwork, and care for our community, helping students make thoughtful choices and treat others with dignity.</li></ul></div></div></section>
-<section class="section tint" id="facilities"><div class="container"><div class="center"><p class="eyebrow">Why choose us?</p><h2 class="heading">A Place to Discover Potential</h2><p class="intro">Replace these introductory descriptions with verified details about your school's actual programmes and facilities.</p></div><div class="grid3"><article class="card"><div class="icon">📖</div><h3>Meaningful Learning</h3><p>Add information about curriculum, teaching methods and academic standards.</p></article><article class="card"><div class="icon">👩‍🏫</div><h3>Dedicated Educators</h3><p>Introduce teachers, their qualifications and subject expertise.</p></article><article class="card"><div class="icon">🌱</div><h3>Character Development</h3><p>Describe how the school promotes responsibility, teamwork and respect.</p></article><article class="card"><div class="icon">🎨</div><h3>Creative Expression</h3><p>Showcase art, presentations, cultural activities and competitions.</p></article><article class="card"><div class="icon">⚽</div><h3>Sports & Activities</h3><p>Add details about physical education, sports and extracurricular programmes.</p></article><article class="card"><div class="icon">🤝</div><h3>Parent Partnership</h3><p>Explain how parents can communicate with teachers and the school.</p></article></div></div></section>
-<section class="section white" id="academics"><div class="container"><div class="center"><p class="eyebrow">Our academic journey</p><h2 class="heading">From First Steps to Future Goals</h2><p class="intro">Explore the class levels offered at Johar Campus. Add the official class-wise programme details when available.</p></div><div class="classes"><div class="class"><span>Early Years</span><strong>Nursery</strong></div><div class="class"><span>Early Years</span><strong>KG</strong></div><div class="class"><span>Primary</span><strong>Class I</strong></div><div class="class"><span>Primary</span><strong>Class II</strong></div><div class="class"><span>Primary</span><strong>Class III</strong></div><div class="class"><span>Primary</span><strong>Class IV</strong></div><div class="class"><span>Primary</span><strong>Class V</strong></div><div class="class"><span>Middle</span><strong>Class VI</strong></div><div class="class"><span>Middle</span><strong>Class VII</strong></div><div class="class"><span>Middle</span><strong>Class VIII</strong></div><div class="class"><span>Secondary</span><strong>Class IX</strong></div><div class="class"><span>Secondary</span><strong>Class X</strong></div></div><p style="text-align:center;color:var(--muted);font-size:.85rem;margin-top:22px">Curriculum, subjects, examination board and class-specific details to be confirmed.</p></div></section>
-<section class="section tint"><div class="container"><div class="center"><p class="eyebrow">Our approach</p><h2 class="heading">Learning for Every Stage</h2><p class="intro">Learning for today’s world means building strong foundations, asking thoughtful questions, using technology responsibly, and developing the confidence to keep learning as the world changes.</p></div><div class="grid3"><article class="card"><div class="icon">🧸</div><h3>Early Childhood</h3><p>Young learners build language, early numeracy, curiosity and social skills through stories, play, exploration and creative activities. We encourage children to ask questions, express ideas, work kindly with others and develop the confidence that makes learning joyful.</p></article><article class="card"><div class="icon">✏️</div><h3>Primary Years</h3><p>Students strengthen reading, writing, mathematics and scientific thinking while learning to solve problems, communicate clearly and work as a team. Age-appropriate digital awareness, creativity and practical activities help them become curious, independent learners who can evaluate information and use technology responsibly.</p></article><article class="card"><div class="icon">🔭</div><h3>Middle & Secondary</h3><p>Students deepen subject knowledge and develop critical thinking, research, collaboration and problem-solving skills. They are encouraged to explore real-world questions, understand digital citizenship and online safety, communicate their ideas, and build adaptability and responsibility for further study and a rapidly changing world.</p></article></div></div></section>
-<section class="section white"><div class="container"><div class="banner" id="admissions"><div><p class="eyebrow" style="color:#f5d4dc">Admissions information</p><h2>Take the Next Step in Your Child's Education</h2><p>Contact the school to ask about available classes, admission requirements, fee structure and important dates.</p></div><a class="btn" href="#contact">Request Information →</a></div><div class="grid3" style="margin-top:25px"><article class="card"><div class="icon">01</div><h3>Make an Inquiry</h3><p>Confirm availability for the desired class and ask about admission requirements.</p></article><article class="card"><div class="icon">02</div><h3>Prepare Documents</h3><p>Add the official list of forms, photographs, certificates and required documents.</p></article><article class="card"><div class="icon">03</div><h3>Follow School Guidance</h3><p>Add the verified process for assessment, admission decisions and enrolment.</p></article></div><p style="margin-top:20px;color:var(--muted);font-size:.84rem">Admission dates, eligibility and fees are placeholders until confirmed by the school.</p></div></section>
-<section class="section tint" id="notices"><div class="container"><p class="eyebrow">Stay informed</p><h2 class="heading">School Notices & Announcements</h2><p class="intro">Replace these samples with official circulars, examination schedules, holidays and events.</p><div class="notices"><article class="notice"><div class="date"><b>--</b><br>DATE</div><div><h3>Announcement Placeholder</h3><p>Add the official announcement, publication date and relevant instructions.</p></div></article><article class="notice"><div class="date"><b>--</b><br>DATE</div><div><h3>Academic Calendar</h3><p>Add term dates, examinations, parent meetings and school holidays.</p></div></article><article class="notice"><div class="date"><b>--</b><br>DATE</div><div><h3>Admissions Update</h3><p>Publish verified admission dates and application instructions.</p></div></article></div></div></section>
-<section class="section white" id="gallery"><div class="container"><div class="center"><p class="eyebrow">Memories and moments</p><h2 class="heading">School Gallery</h2><p class="intro">A look at moments from Maria Millennium High School, Johar Campus.</p></div><div class="gallery" aria-label="Automatically changing school photo gallery"><div class="gallery-slides" id="gallerySlides"><figure class="gallery-slide active"><img src="IMG-20261016-WA0012.jpg" alt="Maria Millennium High School gallery photo 1" loading="eager"><figcaption class="gallery-caption">School Memories</figcaption></figure><figure class="gallery-slide"><img src="IMG-20261026-WA0046.jpg" alt="Maria Millennium High School gallery photo 2" loading="lazy"><figcaption class="gallery-caption">Learning and Activities</figcaption></figure><figure class="gallery-slide"><img src="IMG-20261026-WA0048.jpg" alt="Maria Millennium High School gallery photo 3" loading="lazy"><figcaption class="gallery-caption">School Life</figcaption></figure><figure class="gallery-slide"><img src="IMG-20261026-WA0049.jpg" alt="Maria Millennium High School gallery photo 4" loading="lazy"><figcaption class="gallery-caption">Memories Together</figcaption></figure><figure class="gallery-slide"><img src="IMG-20261016-WA0051.jpg" alt="Maria Millennium High School gallery photo 5" loading="lazy"><figcaption class="gallery-caption">Our School Community</figcaption></figure></div><div class="gallery-controls"><button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Previous photo">‹</button><div class="gallery-dots" id="galleryDots" aria-label="Choose a gallery photo"><button class="gallery-dot active" type="button" aria-label="Show photo 1"></button><button class="gallery-dot" type="button" aria-label="Show photo 2"></button><button class="gallery-dot" type="button" aria-label="Show photo 3"></button><button class="gallery-dot" type="button" aria-label="Show photo 4"></button><button class="gallery-dot" type="button" aria-label="Show photo 5"></button></div><button class="gallery-arrow" id="galleryNext" type="button" aria-label="Next photo">›</button></div><p class="gallery-status" id="galleryStatus" aria-live="polite">Photo 1 of 5 · Changes automatically every 4 seconds</p></div><p style="text-align:center;margin-top:20px;font-size:.82rem;color:var(--muted)">Obtain appropriate permission before publishing identifiable student photographs.</p></div></section>
-<section class="section tint" id="staff"><div class="container"><div class="center"><p class="eyebrow">Meet our team</p><h2 class="heading">School Leadership & Teachers</h2><p class="intro">Replace names, roles and placeholders with confirmed staff information.</p></div><div class="staff"><article class="person"><div class="portrait">👤</div><div><h3>Principal's Name</h3><p>Principal / Head of School</p></div></article><article class="person"><div class="portrait">👤</div><div><h3>Coordinator's Name</h3><p>Academic Coordinator</p></div></article><article class="person"><div class="portrait">👤</div><div><h3>Teacher's Name</h3><p>Teacher / Department</p></div></article><article class="person"><div class="portrait">👤</div><div><h3>Staff Member's Name</h3><p>Role / Department</p></div></article></div></div></section>
-<section class="section white" id="contact"><div class="container"><p class="eyebrow">We are here to help</p><h2 class="heading">Contact Maria Millennium High School</h2><p class="intro">Add the official contact details below so parents can reach the Johar Campus.</p><div class="contactgrid"><div><div class="details"><div class="detail"><strong>📍 Campus Address</strong><p>Maria Millennium High School, Johar Campus<br>[Complete campus address]<br>Karachi, Pakistan</p></div><div class="detail"><strong>📞 Telephone</strong><p>[Add official school phone number]</p></div><div class="detail"><strong>✉️ Email</strong><p>[Add official school email address]</p></div><div class="detail"><strong>🕒 Office Hours</strong><p>[Add verified office hours and working days]</p></div><div class="detail"><strong>🌐 Social Media</strong><p>Add official Facebook, Instagram and other school links.</p></div></div><div class="map">📍 <b>Campus Location Map</b><br>Add the verified Google Maps embed here.</div></div><form class="form" id="inquiryForm"><h3>Send an Inquiry</h3><div class="fields"><div class="field"><label for="parentName">Parent / Guardian Name *</label><input id="parentName" name="parentName" autocomplete="name" required placeholder="Enter your name"></div><div class="field"><label for="phone">Contact Number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="Enter contact number"></div><div class="field"><label for="email">Email Address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="Enter email address"></div><div class="field"><label for="className">Class of Interest *</label><select id="className" name="className" required><option value="">Select a class</option><option>Nursery</option><option>KG</option><option>Class I</option><option>Class II</option><option>Class III</option><option>Class IV</option><option>Class V</option><option>Class VI</option><option>Class VII</option><option>Class VIII</option><option>Class IX</option><option>Class X</option></select></div><div class="field full"><label for="message">Your Message *</label><textarea id="message" name="message" required placeholder="How can the school help you?"></textarea></div><div class="field full"><button class="btn" type="submit">Submit Inquiry →</button></div></div><p class="note">Demo form only: submissions are not sent or stored until a form service or backend is connected.</p><p class="message" id="formMessage" role="status" aria-live="polite"></p></form></div></div></section>
-</main>
-<footer class="footer"><div class="container"><div class="footgrid"><div><h3>Maria Millennium High School</h3><p>Johar Campus · Nursery to Class X</p><p style="margin-top:10px">Learning, character and a brighter future. Add your official school introduction here.</p><p style="margin-top:12px"><a href="#">Facebook</a> · <a href="#">Instagram</a> · <a href="#">YouTube</a></p></div><div><h4>Explore</h4><ul><li><a href="#about">About the School</a></li><li><a href="#academics">Academics</a></li><li><a href="#facilities">Facilities</a></li><li><a href="#staff">Our Staff</a></li></ul></div><div><h4>Information</h4><ul><li><a href="#admissions">Admissions</a></li><li><a href="#notices">Notices</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact</a></li></ul></div><div><h4>Campus</h4><ul><li><a href="#contact">Address</a></li><li><a href="#contact">Telephone</a></li><li><a href="#contact">Email</a></li><li><a href="#contact">Office Hours</a></li></ul></div></div><div class="footbottom"><span>© <span id="year"></span> Maria Millennium High School. All rights reserved.</span><span>Johar Campus · Karachi, Pakistan</span></div></div></footer><a class="toplink" href="#home" aria-label="Back to top">↑</a>
-<script>
-const menu=document.getElementById('menu'),nav=document.getElementById('nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'✕ Close':'☰ Menu'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰ Menu'}));document.getElementById('year').textContent=new Date().getFullYear();
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#861f32" name="theme-color"/>
+  <title>
+   Maria Millennium High School | Johar Campus
+  </title>
+  <meta content="Maria Millennium High School, Johar Campus &mdash; Nursery to Class X." name="description"/>
+  <style>
+   :root{
+  --red:#861f32;
+  --dark:#641525;
+  --rose:#f9e9ec;
+  --pale:#fff7f8;
+  --ink:#29252a;
+  --muted:#716970;
+  --line:#eedde1;
+  --gold:#c79b55;
+  --shadow:0 12px 35px #64152512
+}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0
+}
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:90px
+}
+body{
+  font:16px/1.7 "Segoe UI",Arial,sans-serif;
+  color:var(--ink);
+  background:var(--pale)
+}
+a{
+  text-decoration:none;
+  color:inherit
+}
+button,input,textarea,select{
+  font:inherit
+}
+.container{
+  width:min(1160px,92%);
+  margin:auto
+}
+.section{
+  padding:76px 0
+}
+.white{
+  background:white
+}
+.tint{
+  background:#fff0f2
+}
+.eyebrow{
+  color:var(--red);
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:10px
+}
+.heading{
+  font:700 clamp(2rem,4vw,2.8rem)/1.2 Georgia,serif;
+  color:var(--dark);
+  margin-bottom:15px
+}
+.intro{
+  max-width:680px;
+  color:var(--muted);
+  margin-bottom:35px
+}
+.center{
+  text-align:center
+}
+.center .intro{
+  margin:0 auto 35px
+}
+.btn{
+  display:inline-block;
+  padding:12px 21px;
+  border-radius:9px;
+  background:var(--red);
+  color:white;
+  font-weight:700;
+  border:1px solid var(--red);
+  cursor:pointer
+}
+.btn:hover{
+  background:var(--dark)
+}
+.outline{
+  background:transparent;
+  color:var(--red)
+}
+.topbar{
+  background:var(--dark);
+  color:white;
+  padding:7px 0;
+  font-size:.84rem
+}
+.topinner{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap
+}
+.topbar a{
+  color:#ffe6eb
+}
+.header{
+  position:sticky;
+  top:0;
+  z-index:9;
+  background:#ffffffef;
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line)
+}
+.headinner{
+  min-height:84px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px
+}
+.logo{
+  width:62px;
+  height:62px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  border:2px dashed #c78b98;
+  border-radius:50%;
+  font-size:.64rem;
+  line-height:1.2;
+  font-weight:800;
+  color:var(--red);
+  background:#fff5f6
+}
+.brandname{
+  font:700 1.2rem/1.2 Georgia,serif;
+  color:var(--dark)
+}
+.campus{
+  font-size:.78rem;
+  color:var(--muted)
+}
+nav{
+  display:flex;
+  align-items:center;
+  gap:17px
+}
+nav a{
+  font-size:.85rem;
+  font-weight:650
+}
+nav a:hover{
+  color:var(--red)
+}
+nav .navbtn{
+  padding:9px 13px;
+  background:var(--red);
+  color:white;
+  border-radius:8px
+}
+.menu{
+  display:none;
+  background:white;
+  border:1px solid var(--line);
+  padding:8px 12px;
+  border-radius:8px;
+  color:var(--red)
+}
+.hero{
+  padding:78px 0;
+  background:radial-gradient(ellipse at 85% 10%,#f3d4da,transparent 35%),linear-gradient(120deg,#fff8f9,#f9e9ec 65%,#f4dce1);
+  overflow:hidden
+}
+.herogrid{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  align-items:center;
+  gap:42px
+}
+.pill{
+  display:inline-block;
+  border:1px solid #e7c2cb;
+  border-radius:30px;
+  padding:6px 13px;
+  color:var(--red);
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:1px;
+  margin-bottom:20px
+}
+.hero h1{
+  font:700 clamp(2.7rem,5.2vw,4.6rem)/1.08 Georgia,serif;
+  letter-spacing:-1px;
+  color:var(--dark);
+  margin-bottom:20px
+}
+.hero h1 span{
+  color:#a94c60
+}
+.hero p{
+  color:#62565d;
+  margin-bottom:25px
+}
+.actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap
+}
+.photo{
+  min-height:390px;
+  border:1px solid #e8cbd2;
+  border-radius:25px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  padding:35px;
+  color:var(--dark);
+  background:linear-gradient(#fff6f87a,#fff6f8b8),repeating-linear-gradient(135deg,#f5dfe4,#f5dfe4 12px,#f0d4db 12px,#f0d4db 24px)
+}
+.photo .emoji{
+  font-size:3rem
+}
+.photo strong{
+  display:block
+}
+.photo small{
+  color:var(--muted)
+}
+.facts{
+  background:white;
+  border-bottom:1px solid var(--line)
+}
+.factgrid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr)
+}
+.fact{
+  text-align:center;
+  padding:23px 10px;
+  border-right:1px solid var(--line)
+}
+.fact:last-child{
+  border:0
+}
+.fact strong{
+  display:block;
+  font:700 1.35rem Georgia,serif;
+  color:var(--red)
+}
+.fact span{
+  font-size:.82rem;
+  color:var(--muted)
+}
+.aboutgrid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:45px;
+  align-items:center
+}
+.aboutbox{
+  min-height:300px;
+  border-radius:18px;
+  background:#f3dce1;
+  padding:20px;
+  display:grid;
+  place-items:center;
+  text-align:center
+}
+.aboutbox>div{
+  background:white;
+  border-radius:12px;
+  padding:35px;
+  width:100%;
+  color:var(--muted)
+}
+.aboutbox strong{
+  display:block;
+  color:var(--red)
+}
+.checks{
+  list-style:none;
+  margin-top:20px;
+  display:grid;
+  gap:10px
+}
+.checks li:before{
+  content:'✓';
+  display:inline-grid;
+  place-items:center;
+  width:24px;
+  height:24px;
+  background:var(--rose);
+  color:var(--red);
+  border-radius:50%;
+  margin-right:10px
+}
+.grid3{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px
+}
+.card{
+  padding:25px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+  transition:.2s
+}
+.card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--shadow)
+}
+.icon{
+  font-size:1.65rem;
+  background:var(--rose);
+  width:52px;
+  height:52px;
+  display:grid;
+  place-items:center;
+  border-radius:13px;
+  margin-bottom:15px
+}
+.card h3{
+  font:700 1.2rem Georgia,serif;
+  color:var(--dark);
+  margin-bottom:8px
+}
+.card p{
+  font-size:.91rem;
+  color:var(--muted)
+}
+.classes{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:12px
+}
+.class{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:17px 5px;
+  text-align:center
+}
+.class span{
+  display:block;
+  font-size:.75rem;
+  color:var(--muted)
+}
+.class strong{
+  color:var(--red)
+}
+.banner{
+  background:linear-gradient(120deg,#761b2d,#a43d53);
+  color:white;
+  border-radius:22px;
+  padding:42px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:25px
+}
+.banner h2{
+  font:700 clamp(1.8rem,3vw,2.5rem)/1.2 Georgia,serif;
+  margin-bottom:12px
+}
+.banner p{
+  color:#f7e4e8;
+  max-width:650px
+}
+.banner .btn{
+  background:white;
+  color:var(--dark);
+  border-color:white;
+  white-space:nowrap
+}
+.notices{
+  display:grid;
+  gap:13px
+}
+.notice{
+  display:flex;
+  gap:17px;
+  align-items:flex-start;
+  background:white;
+  border:1px dashed #d9aab5;
+  border-radius:13px;
+  padding:18px
+}
+.date{
+  flex-shrink:0;
+  background:var(--rose);
+  color:var(--red);
+  border-radius:9px;
+  padding:9px;
+  text-align:center;
+  font-size:.75rem
+}
+.notice h3{
+  color:var(--dark);
+  font-size:1rem
+}
+.notice p{
+  color:var(--muted);
+  font-size:.88rem
+}
+.gallery{
+  position:relative;
+  max-width:920px;
+  margin:0 auto
+}
+.gallery-slides{
+  position:relative;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#f3dce1;
+  box-shadow:var(--shadow)
+}
+.gallery-slide{
+  display:none;
+  margin:0;
+  position:relative;
+  height:clamp(260px,56vw,520px);
+  aspect-ratio:16/9;
+  background:#f3dce1;
+  overflow:hidden
+}
+.gallery-slide.active{
+  display:block;
+  animation:galleryFade .7s ease
+}
+.gallery-slide img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  background:#f3dce1
+}
+.gallery-caption{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:24px 18px 18px;
+  color:white;
+  background:linear-gradient(transparent,#2c1019cc);
+  font-weight:700;
+  text-shadow:0 1px 3px #0008;
+  pointer-events:none
+}
+.gallery-controls{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin-top:16px
+}
+.gallery-arrow{
+  width:40px;
+  height:40px;
+  border:1px solid #dfb8c1;
+  border-radius:50%;
+  background:white;
+  color:var(--red);
+  font-size:1.25rem;
+  cursor:pointer
+}
+.gallery-arrow:hover{
+  background:var(--rose)
+}
+.gallery-dots{
+  display:flex;
+  justify-content:center;
+  gap:8px
+}
+.gallery-dot{
+  width:10px;
+  height:10px;
+  border:0;
+  border-radius:50%;
+  background:#d8aab5;
+  cursor:pointer;
+  padding:0
+}
+.gallery-dot.active{
+  background:var(--red);
+  transform:scale(1.2)
+}
+.gallery-status{
+  text-align:center;
+  color:var(--muted);
+  font-size:.82rem;
+  margin-top:8px
+}
+@keyframes galleryFade{
+  from{
+    opacity:.45
+  }
+  to{
+    opacity:1
+  }
+}
+.staff{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px
+}
+.person{
+  border:1px solid var(--line);
+  border-radius:15px;
+  background:white;
+  text-align:center;
+  overflow:hidden
+}
+.portrait{
+  height:160px;
+  background:#f2dce1;
+  display:grid;
+  place-items:center;
+  font-size:2.6rem;
+  color:var(--red)
+}
+.person div:last-child{
+  padding:16px
+}
+.person h3{
+  color:var(--dark);
+  font-size:1rem
+}
+.person p{
+  color:var(--muted);
+  font-size:.84rem
+}
+.contactgrid{
+  display:grid;
+  grid-template-columns:.8fr 1.2fr;
+  gap:28px
+}
+.details{
+  display:grid;
+  gap:12px
+}
+.detail{
+  padding:17px;
+  background:#fff7f8;
+  border:1px solid var(--line);
+  border-radius:12px
+}
+.detail strong{
+  display:block;
+  color:var(--dark)
+}
+.detail p{
+  color:var(--muted);
+  font-size:.9rem;
+  overflow-wrap:anywhere
+}
+.map{
+  margin-top:15px;
+  padding:25px;
+  text-align:center;
+  border:1px dashed #d5a1ad;
+  border-radius:12px;
+  color:var(--muted)
+}
+.form{
+  padding:27px;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:17px;
+  box-shadow:var(--shadow)
+}
+.form h3{
+  font:700 1.5rem Georgia,serif;
+  color:var(--dark);
+  margin-bottom:18px
+}
+.fields{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px
+}
+.field{
+  display:grid;
+  gap:6px
+}
+.full{
+  grid-column:1/-1
+}
+.field label{
+  font-size:.84rem;
+  font-weight:700
+}
+.field input,.field select,.field textarea{
+  width:100%;
+  padding:11px;
+  border:1px solid #e4d4d9;
+  border-radius:8px;
+  background:#fffafb
+}
+.field textarea{
+  min-height:100px
+}
+.note{
+  font-size:.78rem;
+  color:var(--muted);
+  margin-top:12px
+}
+.message{
+  font-size:.85rem;
+  color:var(--red);
+  margin-top:10px
+}
+.footer{
+  background:#40111e;
+  color:#f8e9ed;
+  padding:52px 0 20px
+}
+.footgrid{
+  display:grid;
+  grid-template-columns:1.5fr 1fr 1fr 1fr;
+  gap:25px;
+  margin-bottom:35px
+}
+.footer h3,.footer h4{
+  color:white;
+  margin-bottom:12px
+}
+.footer h3{
+  font:700 1.25rem Georgia,serif
+}
+.footer p,.footer a{
+  font-size:.86rem;
+  color:#dfc6cd
+}
+.footer ul{
+  list-style:none;
+  display:grid;
+  gap:7px
+}
+.footer a:hover{
+  color:white
+}
+.footbottom{
+  border-top:1px solid #ffffff2b;
+  padding-top:18px;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  font-size:.8rem;
+  color:#dfc6cd
+}
+.toplink{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  background:var(--red);
+  color:white;
+  width:43px;
+  height:43px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  box-shadow:var(--shadow)
+}
+@media(max-width:1000px){
+  nav{
+    gap:10px
+  }
+  nav a{
+    font-size:.78rem
+  }
+  .classes{
+    grid-template-columns:repeat(4,1fr)
+  }
+  .staff{
+    grid-template-columns:repeat(2,1fr)
+  }
+}
+@media(max-width:800px){
+  .section{
+    padding:60px 0
+  }
+  .menu{
+    display:block
+  }
+  .headinner{
+    min-height:76px
+  }
+  nav{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    background:white;
+    padding:16px 4%;
+    border-bottom:1px solid var(--line);
+    box-shadow:var(--shadow);
+    align-items:stretch;
+    flex-direction:column
+  }
+  nav.open{
+    display:flex
+  }
+  nav a{
+    padding:8px;
+    font-size:.94rem
+  }
+  nav .navbtn{
+    text-align:center
+  }
+  .herogrid,.aboutgrid,.contactgrid{
+    grid-template-columns:1fr
+  }
+  .hero{
+    padding:58px 0
+  }
+  .photo{
+    min-height:300px
+  }
+  .grid3{
+    grid-template-columns:repeat(2,1fr)
+  }
+  .banner{
+    align-items:flex-start;
+    flex-direction:column
+  }
+  .footgrid{
+    grid-template-columns:repeat(2,1fr)
+  }
+}
+@media(max-width:520px){
+  .brandname{
+    font-size:.96rem
+  }
+  .logo{
+    width:50px;
+    height:50px
+  }
+  .hero h1{
+    font-size:2.55rem
+  }
+  .factgrid{
+    grid-template-columns:repeat(2,1fr)
+  }
+  .fact:nth-child(2){
+    border-right:0
+  }
+  .fact:nth-child(-n+2){
+    border-bottom:1px solid var(--line)
+  }
+  .grid3,.gallery,.footgrid,.fields{
+    grid-template-columns:1fr
+  }
+  .classes{
+    grid-template-columns:repeat(3,1fr)
+  }
+  .full{
+    grid-column:auto
+  }
+  .staff{
+    grid-template-columns:repeat(2,1fr)
+  }
+  .form{
+    padding:20px
+  }
+  .banner{
+    padding:27px 22px
+  }
+  .topinner{
+    justify-content:center;
+    text-align:center
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  html{
+    scroll-behavior:auto
+  }
+  *{
+    transition:none!important
+  }
+}
+  </style>
+ </head>
+ <body>
+  <div class="topbar">
+   <div class="container topinner">
+    <span>
+     Welcome to Maria Millennium High School
+    </span>
+    <span>
+     <a href="#admissions">
+      Admissions information
+     </a>
+     &nbsp; | &nbsp;
+     <a href="#contact">
+      Contact the campus
+     </a>
+    </span>
+   </div>
+  </div>
+  <header class="header">
+   <div class="container headinner">
+    <a aria-label="School homepage" class="brand" href="#home">
+     <div class="logo">
+      SCHOOL
+      <br/>
+      MONOGRAM
+     </div>
+     <div>
+      <div class="brandname">
+       Maria Millennium
+       <br/>
+       High School
+      </div>
+      <div class="campus">
+       Johar Campus &middot; Nursery to X
+      </div>
+     </div>
+    </a>
+    <button aria-controls="nav" aria-expanded="false" class="menu" id="menu">
+     ☰ Menu
+    </button>
+    <nav aria-label="Main navigation" id="nav">
+     <a href="#home">
+      Home
+     </a>
+     <a href="#about">
+      About
+     </a>
+     <a href="#academics">
+      Academics
+     </a>
+     <a href="#facilities">
+      Facilities
+     </a>
+     <a href="#admissions">
+      Admissions
+     </a>
+     <a href="#notices">
+      Notices
+     </a>
+     <a href="#gallery">
+      Gallery
+     </a>
+     <a href="#contact">
+      Contact
+     </a>
+     <a class="navbtn" href="#contact">
+      Enquire Now
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="hero" id="home">
+    <div class="container herogrid">
+     <div>
+      <span class="pill">
+       LEARN &middot; GROW &middot; EXCEL
+      </span>
+      <h1>
+       Inspiring Young Minds,
+       <span>
+        Building Bright Futures.
+       </span>
+      </h1>
+      <p>
+       Welcome to Maria Millennium High School, Johar Campus. A place where learning, creativity, confidence and good character come together to help every student grow.
+      </p>
+      <div class="actions">
+       <a class="btn" href="#admissions">
+        Explore Admissions &rarr;
+       </a>
+       <a class="btn outline" href="#about">
+        Discover Our School
+       </a>
+      </div>
+      <p style="font-size:.84rem;margin-top:20px">
+       Quality learning for students from Nursery to Class X.
+      </p>
+     </div>
+     <div class="photo">
+      <div>
+       <div class="emoji">
+        🏫
+       </div>
+       <strong>
+        YOUR SCHOOL PHOTOGRAPH
+       </strong>
+       <small>
+        Replace with a campus, school building or approved student activity photo.
+       </small>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="facts">
+    <div class="container factgrid">
+     <div class="fact">
+      <strong>
+       Nursery&ndash;X
+      </strong>
+      <span>
+       Classes Offered
+      </span>
+     </div>
+     <div class="fact">
+      <strong>
+       Learning
+      </strong>
+      <span>
+       Academic Development
+      </span>
+     </div>
+     <div class="fact">
+      <strong>
+       Character
+      </strong>
+      <span>
+       Values &amp; Confidence
+      </span>
+     </div>
+     <div class="fact">
+      <strong>
+       Future
+      </strong>
+      <span>
+       Skills for Life
+      </span>
+     </div>
+    </div>
+   </section>
+   <section class="section white" id="about">
+    <div class="container aboutgrid">
+     <div class="aboutbox">
+      <div>
+       <span style="font-size:3rem">
+        🌟
+       </span>
+       <strong>
+        OUR SCHOOL STORY
+       </strong>
+       <p>
+        Add your school's history, founding year and achievements here.
+       </p>
+      </div>
+     </div>
+     <div>
+      <p class="eyebrow">
+       About our school
+      </p>
+      <h2 class="heading">
+       Education Beyond the Classroom
+      </h2>
+      <p class="intro">
+       At Maria Millennium High School, Johar Campus, we aim to provide a supportive environment where students can develop knowledge, discipline, curiosity and respect for others.
+      </p>
+      <p>
+       Use this section to introduce your school, its educational philosophy and the opportunities it provides to students and families.
+      </p>
+      <ul class="checks">
+       <li>
+        <b>
+         Our vision:
+        </b>
+        To be a welcoming and inspiring school where every learner discovers their strengths, develops a love of learning, and is prepared to contribute positively to society. We aspire to help students grow into confident, thoughtful, and responsible individuals.
+       </li>
+       <li>
+        <b>
+         Our mission:
+        </b>
+        To provide a supportive, inclusive learning environment with meaningful teaching, curiosity, creativity, and high expectations. We aim to nurture each student's academic progress, personal development, and confidence through cooperation among students, teachers, and families.
+       </li>
+       <li>
+        <b>
+         Our values:
+        </b>
+        We encourage respect, honesty, responsibility, kindness, discipline, and fairness in everyday school life. We value curiosity, perseverance, teamwork, and care for our community, helping students make thoughtful choices and treat others with dignity.
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <section class="section tint" id="facilities">
+    <div class="container">
+     <div class="center">
+      <p class="eyebrow">
+       Why choose us?
+      </p>
+      <h2 class="heading">
+       A Place to Discover Potential
+      </h2>
+      <p class="intro">
+       Replace these introductory descriptions with verified details about your school's actual programmes and facilities.
+      </p>
+     </div>
+     <div class="grid3">
+      <article class="card">
+       <div class="icon">
+        📖
+       </div>
+       <h3>
+        Meaningful Learning
+       </h3>
+       <p>
+        Add information about curriculum, teaching methods and academic standards.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        👩&zwj;🏫
+       </div>
+       <h3>
+        Dedicated Educators
+       </h3>
+       <p>
+        Introduce teachers, their qualifications and subject expertise.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        🌱
+       </div>
+       <h3>
+        Character Development
+       </h3>
+       <p>
+        Describe how the school promotes responsibility, teamwork and respect.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        🎨
+       </div>
+       <h3>
+        Creative Expression
+       </h3>
+       <p>
+        Showcase art, presentations, cultural activities and competitions.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        ⚽
+       </div>
+       <h3>
+        Sports &amp; Activities
+       </h3>
+       <p>
+        Add details about physical education, sports and extracurricular programmes.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        🤝
+       </div>
+       <h3>
+        Parent Partnership
+       </h3>
+       <p>
+        Explain how parents can communicate with teachers and the school.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section white" id="academics">
+    <div class="container">
+     <div class="center">
+      <p class="eyebrow">
+       Our academic journey
+      </p>
+      <h2 class="heading">
+       From First Steps to Future Goals
+      </h2>
+      <p class="intro">
+       Explore the class levels offered at Johar Campus. Add the official class-wise programme details when available.
+      </p>
+     </div>
+     <div class="classes">
+      <div class="class">
+       <span>
+        Early Years
+       </span>
+       <strong>
+        Nursery
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Early Years
+       </span>
+       <strong>
+        KG
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Primary
+       </span>
+       <strong>
+        Class I
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Primary
+       </span>
+       <strong>
+        Class II
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Primary
+       </span>
+       <strong>
+        Class III
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Primary
+       </span>
+       <strong>
+        Class IV
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Primary
+       </span>
+       <strong>
+        Class V
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Middle
+       </span>
+       <strong>
+        Class VI
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Middle
+       </span>
+       <strong>
+        Class VII
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Middle
+       </span>
+       <strong>
+        Class VIII
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Secondary
+       </span>
+       <strong>
+        Class IX
+       </strong>
+      </div>
+      <div class="class">
+       <span>
+        Secondary
+       </span>
+       <strong>
+        Class X
+       </strong>
+      </div>
+     </div>
+     <p style="text-align:center;color:var(--muted);font-size:.85rem;margin-top:22px">
+      Curriculum, subjects, examination board and class-specific details to be confirmed.
+     </p>
+    </div>
+   </section>
+   <section class="section tint">
+    <div class="container">
+     <div class="center">
+      <p class="eyebrow">
+       Our approach
+      </p>
+      <h2 class="heading">
+       Learning for Every Stage
+      </h2>
+      <p class="intro">
+       Learning for today&rsquo;s world means building strong foundations, asking thoughtful questions, using technology responsibly, and developing the confidence to keep learning as the world changes.
+      </p>
+     </div>
+     <div class="grid3">
+      <article class="card">
+       <div class="icon">
+        🧸
+       </div>
+       <h3>
+        Early Childhood
+       </h3>
+       <p>
+        Young learners build language, early numeracy, curiosity and social skills through stories, play, exploration and creative activities. We encourage children to ask questions, express ideas, work kindly with others and develop the confidence that makes learning joyful.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        ✏️
+       </div>
+       <h3>
+        Primary Years
+       </h3>
+       <p>
+        Students strengthen reading, writing, mathematics and scientific thinking while learning to solve problems, communicate clearly and work as a team. Age-appropriate digital awareness, creativity and practical activities help them become curious, independent learners who can evaluate information and use technology responsibly.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        🔭
+       </div>
+       <h3>
+        Middle &amp; Secondary
+       </h3>
+       <p>
+        Students deepen subject knowledge and develop critical thinking, research, collaboration and problem-solving skills. They are encouraged to explore real-world questions, understand digital citizenship and online safety, communicate their ideas, and build adaptability and responsibility for further study and a rapidly changing world.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section white">
+    <div class="container">
+     <div class="banner" id="admissions">
+      <div>
+       <p class="eyebrow" style="color:#f5d4dc">
+        Admissions information
+       </p>
+       <h2>
+        Take the Next Step in Your Child's Education
+       </h2>
+       <p>
+        Contact the school to ask about available classes, admission requirements, fee structure and important dates.
+       </p>
+      </div>
+      <a class="btn" href="#contact">
+       Request Information &rarr;
+      </a>
+     </div>
+     <div class="grid3" style="margin-top:25px">
+      <article class="card">
+       <div class="icon">
+        01
+       </div>
+       <h3>
+        Make an Inquiry
+       </h3>
+       <p>
+        Confirm availability for the desired class and ask about admission requirements.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        02
+       </div>
+       <h3>
+        Prepare Documents
+       </h3>
+       <p>
+        Add the official list of forms, photographs, certificates and required documents.
+       </p>
+      </article>
+      <article class="card">
+       <div class="icon">
+        03
+       </div>
+       <h3>
+        Follow School Guidance
+       </h3>
+       <p>
+        Add the verified process for assessment, admission decisions and enrolment.
+       </p>
+      </article>
+     </div>
+     <p style="margin-top:20px;color:var(--muted);font-size:.84rem">
+      Admission dates, eligibility and fees are placeholders until confirmed by the school.
+     </p>
+    </div>
+   </section>
+   <section class="section tint" id="notices">
+    <div class="container">
+     <p class="eyebrow">
+      Stay informed
+     </p>
+     <h2 class="heading">
+      School Notices &amp; Announcements
+     </h2>
+     <p class="intro">
+      Replace these samples with official circulars, examination schedules, holidays and events.
+     </p>
+     <div class="notices">
+      <article class="notice">
+       <div class="date">
+        <b>
+         --
+        </b>
+        <br/>
+        DATE
+       </div>
+       <div>
+        <h3>
+         Announcement Placeholder
+        </h3>
+        <p>
+         Add the official announcement, publication date and relevant instructions.
+        </p>
+       </div>
+      </article>
+      <article class="notice">
+       <div class="date">
+        <b>
+         --
+        </b>
+        <br/>
+        DATE
+       </div>
+       <div>
+        <h3>
+         Academic Calendar
+        </h3>
+        <p>
+         Add term dates, examinations, parent meetings and school holidays.
+        </p>
+       </div>
+      </article>
+      <article class="notice">
+       <div class="date">
+        <b>
+         --
+        </b>
+        <br/>
+        DATE
+       </div>
+       <div>
+        <h3>
+         Admissions Update
+        </h3>
+        <p>
+         Publish verified admission dates and application instructions.
+        </p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section white" id="gallery">
+    <div class="container">
+     <div class="center">
+      <p class="eyebrow">
+       Memories and moments
+      </p>
+      <h2 class="heading">
+       School Gallery
+      </h2>
+      <p class="intro">
+       A look at moments from Maria Millennium High School, Johar Campus.
+      </p>
+     </div>
+     <div aria-label="Automatically changing school photo gallery" class="gallery">
+      <div class="gallery-slides" id="gallerySlides">
+       <figure class="gallery-slide active">
+        <img alt="Maria Millennium High School gallery photo 1" loading="eager" src="1.jpg"/>
+        <figcaption class="gallery-caption">
+         School Memories
+        </figcaption>
+       </figure>
+       <figure class="gallery-slide">
+        <img alt="Maria Millennium High School gallery photo 2" loading="lazy" src="2.jpg"/>
+        <figcaption class="gallery-caption">
+         Learning and Activities
+        </figcaption>
+       </figure>
+      </div>
+      <div class="gallery-controls">
+       <button aria-label="Previous photo" class="gallery-arrow" id="galleryPrev" type="button">
+        &lsaquo;
+       </button>
+       <div aria-label="Choose a gallery photo" class="gallery-dots" id="galleryDots">
+        <button aria-label="Show photo 1" class="gallery-dot active" type="button">
+        </button>
+        <button aria-label="Show photo 2" class="gallery-dot" type="button">
+        </button>
+       </div>
+       <button aria-label="Next photo" class="gallery-arrow" id="galleryNext" type="button">
+        &rsaquo;
+       </button>
+      </div>
+      <p aria-live="polite" class="gallery-status" id="galleryStatus">
+       Photo 1 of 2 &middot; Changes automatically every 4 seconds
+      </p>
+     </div>
+     <p style="text-align:center;margin-top:20px;font-size:.82rem;color:var(--muted)">
+      Obtain appropriate permission before publishing identifiable student photographs.
+     </p>
+    </div>
+   </section>
+   <section class="section tint" id="staff">
+    <div class="container">
+     <div class="center">
+      <p class="eyebrow">
+       Meet our team
+      </p>
+      <h2 class="heading">
+       School Leadership &amp; Teachers
+      </h2>
+      <p class="intro">
+       Replace names, roles and placeholders with confirmed staff information.
+      </p>
+     </div>
+     <div class="staff">
+      <article class="person">
+       <div class="portrait">
+        👤
+       </div>
+       <div>
+        <h3>
+         Principal's Name
+        </h3>
+        <p>
+         Principal / Head of School
+        </p>
+       </div>
+      </article>
+      <article class="person">
+       <div class="portrait">
+        👤
+       </div>
+       <div>
+        <h3>
+         Coordinator's Name
+        </h3>
+        <p>
+         Academic Coordinator
+        </p>
+       </div>
+      </article>
+      <article class="person">
+       <div class="portrait">
+        👤
+       </div>
+       <div>
+        <h3>
+         Teacher's Name
+        </h3>
+        <p>
+         Teacher / Department
+        </p>
+       </div>
+      </article>
+      <article class="person">
+       <div class="portrait">
+        👤
+       </div>
+       <div>
+        <h3>
+         Staff Member's Name
+        </h3>
+        <p>
+         Role / Department
+        </p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section white" id="contact">
+    <div class="container">
+     <p class="eyebrow">
+      We are here to help
+     </p>
+     <h2 class="heading">
+      Contact Maria Millennium High School
+     </h2>
+     <p class="intro">
+      Add the official contact details below so parents can reach the Johar Campus.
+     </p>
+     <div class="contactgrid">
+      <div>
+       <div class="details">
+        <div class="detail">
+         <strong>
+          📍 Campus Address
+         </strong>
+         <p>
+          Maria Millennium High School, Johar Campus
+          <br/>
+          [Complete campus address]
+          <br/>
+          Karachi, Pakistan
+         </p>
+        </div>
+        <div class="detail">
+         <strong>
+          📞 Telephone
+         </strong>
+         <p>
+          [Add official school phone number]
+         </p>
+        </div>
+        <div class="detail">
+         <strong>
+          ✉️ Email
+         </strong>
+         <p>
+          [Add official school email address]
+         </p>
+        </div>
+        <div class="detail">
+         <strong>
+          🕒 Office Hours
+         </strong>
+         <p>
+          [Add verified office hours and working days]
+         </p>
+        </div>
+        <div class="detail">
+         <strong>
+          🌐 Social Media
+         </strong>
+         <p>
+          Add official Facebook, Instagram and other school links.
+         </p>
+        </div>
+       </div>
+       <div class="map">
+        📍
+        <b>
+         Campus Location Map
+        </b>
+        <br/>
+        Add the verified Google Maps embed here.
+       </div>
+      </div>
+      <form class="form" id="inquiryForm">
+       <h3>
+        Send an Inquiry
+       </h3>
+       <div class="fields">
+        <div class="field">
+         <label for="parentName">
+          Parent / Guardian Name *
+         </label>
+         <input autocomplete="name" id="parentName" name="parentName" placeholder="Enter your name" required=""/>
+        </div>
+        <div class="field">
+         <label for="phone">
+          Contact Number *
+         </label>
+         <input autocomplete="tel" id="phone" name="phone" placeholder="Enter contact number" required="" type="tel"/>
+        </div>
+        <div class="field">
+         <label for="email">
+          Email Address
+         </label>
+         <input autocomplete="email" id="email" name="email" placeholder="Enter email address" type="email"/>
+        </div>
+        <div class="field">
+         <label for="className">
+          Class of Interest *
+         </label>
+         <select id="className" name="className" required="">
+          <option value="">
+           Select a class
+          </option>
+          <option>
+           Nursery
+          </option>
+          <option>
+           KG
+          </option>
+          <option>
+           Class I
+          </option>
+          <option>
+           Class II
+          </option>
+          <option>
+           Class III
+          </option>
+          <option>
+           Class IV
+          </option>
+          <option>
+           Class V
+          </option>
+          <option>
+           Class VI
+          </option>
+          <option>
+           Class VII
+          </option>
+          <option>
+           Class VIII
+          </option>
+          <option>
+           Class IX
+          </option>
+          <option>
+           Class X
+          </option>
+         </select>
+        </div>
+        <div class="field full">
+         <label for="message">
+          Your Message *
+         </label>
+         <textarea id="message" name="message" placeholder="How can the school help you?" required=""></textarea>
+        </div>
+        <div class="field full">
+         <button class="btn" type="submit">
+          Submit Inquiry &rarr;
+         </button>
+        </div>
+       </div>
+       <p class="note">
+        Demo form only: submissions are not sent or stored until a form service or backend is connected.
+       </p>
+       <p aria-live="polite" class="message" id="formMessage" role="status">
+       </p>
+      </form>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container">
+    <div class="footgrid">
+     <div>
+      <h3>
+       Maria Millennium High School
+      </h3>
+      <p>
+       Johar Campus &middot; Nursery to Class X
+      </p>
+      <p style="margin-top:10px">
+       Learning, character and a brighter future. Add your official school introduction here.
+      </p>
+      <p style="margin-top:12px">
+       <a href="#">
+        Facebook
+       </a>
+       &middot;
+       <a href="#">
+        Instagram
+       </a>
+       &middot;
+       <a href="#">
+        YouTube
+       </a>
+      </p>
+     </div>
+     <div>
+      <h4>
+       Explore
+      </h4>
+      <ul>
+       <li>
+        <a href="#about">
+         About the School
+        </a>
+       </li>
+       <li>
+        <a href="#academics">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="#facilities">
+         Facilities
+        </a>
+       </li>
+       <li>
+        <a href="#staff">
+         Our Staff
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h4>
+       Information
+      </h4>
+      <ul>
+       <li>
+        <a href="#admissions">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="#notices">
+         Notices
+        </a>
+       </li>
+       <li>
+        <a href="#gallery">
+         Gallery
+        </a>
+       </li>
+       <li>
+        <a href="#contact">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h4>
+       Campus
+      </h4>
+      <ul>
+       <li>
+        <a href="#contact">
+         Address
+        </a>
+       </li>
+       <li>
+        <a href="#contact">
+         Telephone
+        </a>
+       </li>
+       <li>
+        <a href="#contact">
+         Email
+        </a>
+       </li>
+       <li>
+        <a href="#contact">
+         Office Hours
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="footbottom">
+     <span>
+      &copy;
+      <span id="year">
+      </span>
+      Maria Millennium High School. All rights reserved.
+     </span>
+     <span>
+      Johar Campus &middot; Karachi, Pakistan
+     </span>
+    </div>
+   </div>
+  </footer>
+  <a aria-label="Back to top" class="toplink" href="#home">
+   &uarr;
+  </a>
+  <script>
+   const menu=document.getElementById('menu'),nav=document.getElementById('nav');
+menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');
+menu.setAttribute('aria-expanded',String(open));
+menu.textContent=open?'✕ Close':'☰ Menu'});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');
+menu.setAttribute('aria-expanded','false');
+menu.textContent='☰ Menu'}));
+document.getElementById('year').textContent=new Date().getFullYear();
 const gallerySlides=Array.from(document.querySelectorAll('.gallery-slide'));
 const galleryDots=Array.from(document.querySelectorAll('.gallery-dot'));
 const galleryStatus=document.getElementById('galleryStatus');
 let galleryIndex=0;
 let galleryTimer;
-function showGallerySlide(index){galleryIndex=(index+gallerySlides.length)%gallerySlides.length;gallerySlides.forEach((slide,i)=>{slide.classList.toggle('active',i===galleryIndex);slide.setAttribute('aria-hidden',String(i!==galleryIndex));});galleryDots.forEach((dot,i)=>{dot.classList.toggle('active',i===galleryIndex);dot.setAttribute('aria-current',i===galleryIndex?'true':'false');});galleryStatus.textContent='Photo '+(galleryIndex+1)+' of '+gallerySlides.length+' · Changes automatically every 4 seconds';}
-function startGalleryTimer(){clearInterval(galleryTimer);galleryTimer=setInterval(()=>showGallerySlide(galleryIndex+1),4000);}
-document.getElementById('galleryPrev').addEventListener('click',()=>{showGallerySlide(galleryIndex-1);startGalleryTimer();});
-document.getElementById('galleryNext').addEventListener('click',()=>{showGallerySlide(galleryIndex+1);startGalleryTimer();});
-galleryDots.forEach((dot,i)=>dot.addEventListener('click',()=>{showGallerySlide(i);startGalleryTimer();}));
-const galleryElement=document.getElementById('gallerySlides');galleryElement.addEventListener('mouseenter',()=>clearInterval(galleryTimer));galleryElement.addEventListener('mouseleave',startGalleryTimer);galleryElement.addEventListener('focusin',()=>clearInterval(galleryTimer));galleryElement.addEventListener('focusout',startGalleryTimer);showGallerySlide(0);startGalleryTimer();
-document.getElementById('inquiryForm').addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget;if(!f.checkValidity()){f.reportValidity();return}document.getElementById('formMessage').textContent='The form layout works, but online submission is not configured. Please contact the school directly.';f.reset()});
-</script>
-</body>
+function showGallerySlide(index) {
+galleryIndex=(index+gallerySlides.length)%gallerySlides.length;
+gallerySlides.forEach((slide,i)=>{slide.classList.toggle('active',i===galleryIndex);
+slide.setAttribute('aria-hidden',String(i!==galleryIndex));
+});
+galleryDots.forEach((dot,i)=>{dot.classList.toggle('active',i===galleryIndex);
+dot.setAttribute('aria-current',i===galleryIndex?'true':'false');
+});
+galleryStatus.textContent='Photo '+(galleryIndex+1)+' of '+gallerySlides.length+' · Changes automatically every 4 seconds';
+}
+function startGalleryTimer() {
+clearInterval(galleryTimer);
+galleryTimer=setInterval(()=>showGallerySlide(galleryIndex+1),4000);
+}
+document.getElementById('galleryPrev').addEventListener('click',()=>{showGallerySlide(galleryIndex-1);
+startGalleryTimer();
+});
+document.getElementById('galleryNext').addEventListener('click',()=>{showGallerySlide(galleryIndex+1);
+startGalleryTimer();
+});
+galleryDots.forEach((dot,i)=>dot.addEventListener('click',()=>{showGallerySlide(i);
+startGalleryTimer();
+}));
+const galleryElement=document.getElementById('gallerySlides');
+galleryElement.addEventListener('mouseenter',()=>clearInterval(galleryTimer));
+galleryElement.addEventListener('mouseleave',startGalleryTimer);
+galleryElement.addEventListener('focusin',()=>clearInterval(galleryTimer));
+galleryElement.addEventListener('focusout',startGalleryTimer);
+showGallerySlide(0);
+startGalleryTimer();
+document.getElementById('inquiryForm').addEventListener('submit',e=>{e.preventDefault();
+const f=e.currentTarget;
+if(!f.checkValidity()) {
+f.reportValidity();
+return}document.getElementById('formMessage').textContent='The form layout works, but online submission is not configured. Please contact the school directly.';
+f.reset()});
+  </script>
+ </body>
 </html>
